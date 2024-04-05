@@ -1,0 +1,69 @@
+object ffra_dependencias: Tffra_dependencias
+  Left = 0
+  Top = 0
+  Width = 558
+  Height = 275
+  TabOrder = 0
+  object dfsSplitter4: TdfsSplitter
+    Left = 385
+    Top = 0
+    Height = 275
+    Cursor = crHSplit
+    Align = alLeft
+    Maximized = False
+    Minimized = False
+    ButtonCursor = crDefault
+  end
+  object pane_depe_1: TPCPFrame
+    Left = 0
+    Top = 0
+    Width = 385
+    Height = 275
+    Align = alLeft
+    BorderWidth = 2
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    Boton_Visible = False
+    object Panel1: TPanel
+      Left = 3
+      Top = 19
+      Width = 379
+      Height = 253
+      Align = alClient
+      BevelOuter = bvNone
+      BorderWidth = 5
+      TabOrder = 1
+    end
+  end
+  object pane_depe_2: TPCPFrame
+    Left = 395
+    Top = 0
+    Width = 163
+    Height = 275
+    Align = alClient
+    BorderWidth = 2
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+    Boton_Visible = False
+    object Panel2: TPanel
+      Left = 3
+      Top = 19
+      Width = 157
+      Height = 253
+      Align = alClient
+      BevelOuter = bvNone
+      BorderWidth = 5
+      TabOrder = 1
+    end
+  end
+end
